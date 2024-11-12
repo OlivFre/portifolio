@@ -140,8 +140,8 @@ a:hover {
     align-items: flex-start;
     /*justify-content: space-around;*/
     
-    height: 100vh;
-    padding: 84px 30px;
+    
+    padding: 90px 0px;
     background-color: var(--cor2);
     align-items: center;
 }
@@ -152,10 +152,12 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
+    padding-left: 80px;
 }
 
 .soft{
     background-color: var(--cor1);
+    
     border: 3px solid var(--cor0);
     list-style-type: none;
     color: var(--cor0);
@@ -165,7 +167,15 @@ a:hover {
 .soft > li{
     font-family: var(--fonte-monospace);
     font-size: 1.3em;
-    padding: 30px 30px;
+    padding: 15px 15px;
+}
+
+.soft >li > a > img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.419);
+    box-sizing: border-box;
 }
 
 /*-----------------FIM DE PROJETOS-----------------*/
