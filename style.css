@@ -7,11 +7,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cutive+Mono&family=Iceland&family=Sacramento&family=Yomogi&display=swap');
 
 :root{
-    --cor0: #6AE8F7;
+    --cor0: #02F0EE;
     --cor1: #1C1A1B;
     --cor2: #290245;
     --cor3: #A5A9A8;
     --cor4: #F2F2F2;
+    --cor5: #007EE5;
 
     --fonte-monospace: "Cutive Mono", monospace;
     --fonte-cormorant: "Cormorant", serif;
@@ -69,5 +70,102 @@ a:hover {
 
 /*---------------- Fim do Cabeçalho----------------------*/
 
+/*-----------------SLIDERS-----------------*/
+
+.slider{
+    height: 100vh;
+}
+
+/*-----------------FIM DOS SLIDERS-----------------*/
 
 
+/*-----------------INFORMAÇÕES-----------------*/
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+   
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.foto-perfil{
+    width: 341px;
+    height: 396px;
+    padding: 80px 30px 0px 30px;
+}
+.texto1{
+    font-family: var(--fonte-garamond);
+    text-align: justify;
+    width: 340px;
+    padding: 30px 30px 30px 30px;
+    font-size: 1.2em;
+}
+
+.texto2{
+    font-family: var(--fonte-garamond);
+    text-align: justify;
+    width: 340px;
+    padding: 80px 30px 0px 30px;
+    font-size: 1.2em;
+}
+
+.texto3{
+    font-family: var(--fonte-garamond);
+    text-align: justify;
+    width: 340px;
+    padding: 80px 30px 30px 30px;
+    font-size: 1.2em;
+}
+/*-----------------FIM DE INORMAÇÕES-----------------*/
+
+
+
+/*-----------------PROJETOS-----------------*/
+
+.flex-projetos1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*justify-content: space-around;*/
+    
+    height: 100vh;
+    padding: 84px 30px;
+    background-color: var(--cor2);
+    align-items: center;
+}
+
+.flex-projetos2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.soft{
+    background-color: var(--cor1);
+    border: 3px solid var(--cor0);
+    list-style-type: none;
+    color: var(--cor0);
+
+}
+
+.soft > li{
+    font-family: var(--fonte-monospace);
+    font-size: 1.3em;
+    padding: 30px 30px;
+}
+
+/*-----------------FIM DE PROJETOS-----------------*/
