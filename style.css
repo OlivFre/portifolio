@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Iceland&family=Sacramento&family=Yomogi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cutive+Mono&family=Iceland&family=Sacramento&family=Yomogi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Cutive+Mono&family=Iceland&family=Sacramento&family=Yomogi&display=swap');
+
+:root{
+    --cor0: #6AE8F7;
+    --cor1: #1C1A1B;
+    --cor2: #290245;
+    --cor3: #A5A9A8;
+    --cor4: #F2F2F2;
+
+    --fonte-monospace: "Cutive Mono", monospace;
+    --fonte-cormorant: "Cormorant", serif;
+    --fonte-garamond: "Cormorant Garamond", serif;
+}
+
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*---------------- Cabeçalho----------------------*/
+
+header {
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    font-size: 1.7em;
+    background-color: #1C1A1B;
+    font-family: var(--fonte-cormorant);
+}
+
+.flex-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul {
+    list-style-type: none;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: 0 40px;
+}
+nav ul li a{
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--cor3);
+    color: #1C1A1B;
+    border-radius: 5px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+/*---------------- Fim do Cabeçalho----------------------*/
+
+
+
