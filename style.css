@@ -104,6 +104,15 @@ a:hover {
     height: 396px;
     padding: 80px 30px 0px 30px;
 }
+
+h1{
+    font-family: var(--fonte-garamond);
+    text-align: justify;
+    width: 340px;
+    padding: 30px 30px 0px 30px;
+    font-size: 2em;
+}
+
 .texto1{
     font-family: var(--fonte-garamond);
     text-align: justify;
@@ -111,6 +120,8 @@ a:hover {
     padding: 30px 30px 50px 30px;
     font-size: 1.2em;
 }
+
+
 
 .texto2{
     font-family: var(--fonte-garamond);
