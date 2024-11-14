@@ -200,23 +200,18 @@ a:hover {
 
 }
 
-.flex-projetos5{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-around;
-    align-items: center;
-}
 .bloco{
-    height: 250px;
-    width: 175px;
+    height: 480.2px;
+    width: 315.8px;
     background: black;
-    margin: 0px 20px 30px;
+    margin: 20px 20px ;
     border: 3px solid var(--cor0);
     border-radius: 10px;
 }
 
+.img1{
+   
+}
 
 
 /*-----------------FIM DE PROJETOS-----------------*/
