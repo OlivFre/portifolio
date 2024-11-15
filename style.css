@@ -81,6 +81,12 @@ a:hover {
 
 /*-----------------INFORMAÇÕES-----------------*/
 
+.fundo{
+    background-image: url(imagens/fundo-info_Prancheta\ 1_Prancheta\ 1.svg);
+    background-size: 100%;
+    background-position: center bottom;
+}
+
 .flex2{
     display: flex;
     flex-direction: row;
@@ -102,7 +108,8 @@ a:hover {
 .foto-perfil{
     width: 341px;
     height: 396px;
-    padding: 80px 30px 0px 30px;
+    padding: 63px 0px 0px 0px;
+    box-shadow: 2px 2px 9px black;
 }
 
 h1{
@@ -111,6 +118,7 @@ h1{
     width: 340px;
     padding: 80px 30px 0px 30px;
     font-size: 2em;
+    color: var(--cor0);
 }
 
 .contato{
@@ -119,14 +127,7 @@ h1{
     width: 340px;
     padding: 30px 30px 0px 30px;
     font-size: 2em;
-}
-
-.conhecimento{
-    font-family: var(--fonte-garamond);
-    text-align: justify;
-    width: 340px;
-    padding: 20px 30px 0px 30px;
-    font-size: 2em;
+    color: var(--cor0);
 }
 
 .texto1{
@@ -135,6 +136,7 @@ h1{
     width: 340px;
     padding: 25px 30px 30px 30px;
     font-size: 1.2em;
+    color: var(--cor4);
 }
 
 
@@ -145,6 +147,7 @@ h1{
     width: 340px;
     padding: 30px 30px 0px 30px;
     font-size: 1.2em;
+    color: var(--cor4);
 }
 
 .texto3{
@@ -153,15 +156,10 @@ h1{
     width: 340px;
     padding: 30px 30px 30px 30px;
     font-size: 1.2em;
+    color: var(--cor4);
 }
 
-.texto3{
-    font-family: var(--fonte-garamond);
-    text-align: justify;
-    width: 340px;
-    padding: 30px 30px 30px 30px;
-    font-size: 1.2em;
-}
+
 
 /*-----------------FIM DE INORMAÇÕES-----------------*/
 
