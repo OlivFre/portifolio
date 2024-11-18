@@ -139,7 +139,16 @@ h1{
     color: var(--cor4);
 }
 
+.texto1 > li > a{
+    color: var(--cor4);
+    text-decoration: none;
+}
 
+.texto1 > li > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor1);
+    padding: 1px 5px;
+}
 
 .texto2{
     font-family: var(--fonte-garamond);
@@ -237,14 +246,10 @@ h1{
 .bloco{
     height: 480.2px;
     width: 315.8px;
-    background: black;
+    background-image: url(imagens/HTML.jpg);
     margin: 20px 20px ;
     border: 3px solid var(--cor0);
     border-radius: 10px;
-}
-
-.img1{
-   
 }
 
 
