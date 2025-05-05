@@ -73,7 +73,7 @@ a:hover {
 /*-----------------SLIDERS-----------------*/
 
 .slider{
-    height: 100vh;
+    height: 109vh;
 }
 
 /*-----------------FIM DOS SLIDERS-----------------*/
@@ -82,9 +82,9 @@ a:hover {
 /*-----------------INFORMAÇÕES-----------------*/
 
 .fundo{
-    background-image: url(imagens/fundo-info_Prancheta\ 1_Prancheta\ 1.svg);
+    background-color: rgb(67, 64, 64);
     background-size: 100%;
-    background-position: center bottom;
+    
 }
 
 .flex2{
@@ -103,13 +103,14 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
+    padding-top: 30px; /*add esse padding*/
 }
 
 .foto-perfil{
     width: 341px;
     height: 396px;
-    padding: 63px 0px 0px 0px;
-    box-shadow: 2px 2px 9px black;
+    padding: 0px 0px 0px 0px; /*zerei o top*/
+    box-shadow: 2px 3px 4px black;
 }
 
 h1{
@@ -159,15 +160,6 @@ h1{
     color: var(--cor4);
 }
 
-.texto3{
-    font-family: var(--fonte-garamond);
-    text-align: justify;
-    width: 340px;
-    padding: 30px 30px 30px 30px;
-    font-size: 1.2em;
-    color: var(--cor4);
-}
-
 
 
 /*-----------------FIM DE INORMAÇÕES-----------------*/
@@ -175,6 +167,7 @@ h1{
 
 
 /*-----------------PROJETOS-----------------*/
+
 
 .flex-projetos1{
     display: flex;
@@ -184,7 +177,7 @@ h1{
     justify-content: space-around;
     
     
-    padding: 90px 0px;
+    padding: 60px 0px;
     background-color: var(--cor2);
     align-items: center;
 }
