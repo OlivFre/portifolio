@@ -165,7 +165,14 @@ h1 {
     width: 100%;
 }
 
-.button {
+.projetos-titulo {
+    padding: 130px 0px 0px 42px;
+    font-family: var(--fonte-moon);
+    font-size: 36px;
+    
+}
+
+button {
     background: none;
     border: none;
     cursor: pointer;
@@ -173,7 +180,8 @@ h1 {
 
 button > img {
     transition: 0.3s;
-    gap: 21.44px;
+    
+    
 }
 
 .coluna-meio {
@@ -182,7 +190,8 @@ button > img {
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 372px 38px 163px 123px;
+    padding: 188px 38px 163px 123px;
+    gap: 24px;
     
 }
 
