@@ -87,7 +87,7 @@ nav > ul > li > a:hover {
 
 /*-----HOME------*/
 #home {
-    background-image: url(../portifolio/imagens/fundo-portfolio.png);
+    background-image: url(./imagens/fundo-portfolio.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ ul > div > li {
 /*-----PROJETOS------*/
 
 #projetos {
-    background-image: url(../portifolio/imagens/fundo\ projetos_Prancheta\ 1.png);
+    background-image: url(./imagens/fundo\ projetos_Prancheta\ 1.png);
     width: 100%;
 }
 
