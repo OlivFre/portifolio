@@ -81,7 +81,7 @@ nav > ul > li > a:hover {
 
 /*-----HOME------*/
 #home {
-    background-image: url(/imagens/fundo-portfolio.png);
+    background-image: url(../portifolio/imagens/fundo-portfolio.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
