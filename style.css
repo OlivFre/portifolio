@@ -24,10 +24,10 @@
     --fonte-garamond: "Garamond", serif;
     --fonte-gruppo-regular: "Gruppo Regular", sans-serif;
 
-    --color-1: #027B8E;
-    --color-2: #191D28;
-    --color-3: #EDEDED;
-    
+    --color1: #f9ead7;
+    --color2: #a6baac;
+    --color3: #967462;
+    --color4: #5d3e3f;
 
 }
     
@@ -46,6 +46,47 @@ html {
 section {
     height: 695px;
 }
+
+/*---------CELULAR-------------*/
+@media (max-width: 480px){
+    #home {
+        background-image: url(./imagens/fundo-mobile.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+       
+    }
+}
+
+/*----------TABLETS------------*/
+@media (min-width: 481px) and (max-width: 960px){
+    #home {
+        background-image: url(./imagens/fundo-tablet.png);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+        height: 695px;
+       
+    }
+}
+
+/*----------DESKTOPS-----------*/
+@media (min-width: 961px) {
+    #home {
+        background-image: url(./imagens/fundo-desktop.png);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        
+        height: 695px;
+        
+       
+    }
+}
+
+
 
 /*-----MENU------*/
 
@@ -86,15 +127,7 @@ nav > ul > li > a:hover {
 }
 
 /*-----HOME------*/
-#home {
-    background-image: url(./imagens/fundo-portfolio.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 695px;
-    
-}
+
 
 /*-----PERFIL------*/
 
