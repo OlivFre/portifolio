@@ -36,7 +36,6 @@
 * {
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
 }
 
 html {
@@ -47,43 +46,19 @@ section {
     height: 695px;
 }
 
-/*---------CELULAR-------------*/
+/*---------MOBILE-------------*/
 @media (max-width: 480px){
-    #home {
-        background-image: url(./imagens/fundo-mobile.png);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-       
-    }
+    
 }
 
 /*----------TABLETS------------*/
 @media (min-width: 481px) and (max-width: 960px){
-    #home {
-        background-image: url(./imagens/fundo-tablet.png);
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        
-        height: 695px;
-       
-    }
+    
 }
 
 /*----------DESKTOPS-----------*/
 @media (min-width: 961px) {
-    #home {
-        background-image: url(./imagens/fundo-desktop.png);
-        background-position: center;
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
-        
-        height: 695px;
-        
-       
-    }
+    
 }
 
 
@@ -131,7 +106,7 @@ nav > ul > li > a:hover {
 
 /*-----PERFIL------*/
 
-#perfil {
+/*#perfil {
     background-color: #191D28;
     width: 100%;
 }
@@ -234,7 +209,7 @@ ul > div > li {
 .informações {
     transform: translateX(43%);
 }
-
+*/
 
 
 
