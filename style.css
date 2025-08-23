@@ -103,12 +103,15 @@ nav > ul > li > a:hover {
 
     padding: 96px 236px 70px 228px;*/
 
-    grid-template-rows: 152px;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
-    padding: 96px 20px 70px 20px;
+    grid-template-rows: 220px 220px 120px;
+    grid-template-columns: repeat(2, 190px);
+    gap: 20px;
+    padding: 72px 20px 20px 20px;
 }
 
+.sobre {
+    grid-row: 2 / 4;
+}
 
 
 h1 {
