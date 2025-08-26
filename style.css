@@ -245,11 +245,36 @@ button:hover {
         font-size: 32px;
     }
     
+/*------PROJETOS------*/
+
+    .grid-wrapper2 {
+        display: grid;
+        grid-template-rows: repeat(4, 140px);
+        grid-template-columns: repeat(4, 140px);
+
+        align-items: center;
+
+    }
 }
 
 
 @media screen and (min-width: 1025px) {
 
+/*-----HOME------*/
+
+    .home {
+    background-image: url(./imagens/fundo-desktop.png);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+/*-----PERFIL------*/
+
+    .grid-wrapper{
+        padding: 80px 150px 70px 150px;
+    }
 }
 
 
