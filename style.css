@@ -17,7 +17,7 @@
     --fonte-garamond: "Garamond", serif;
 
 
-    --color1: #f9ead7;
+    --color1: #f9efe1;
     --color2: #a6baac;
     --color3: #967462;
     --color4: #5d3e3f;
@@ -97,16 +97,11 @@ nav > ul > li > a:hover {
 
 .grid-wrapper {
     display: grid;
-    /*grid-template-rows: 328px 152px;
-    grid-template-columns: repeat(3, 288px);
-    gap: 56px;
-
-    padding: 96px 236px 70px 228px;*/
-
     grid-template-rows: 250px 220px 120px;
     grid-template-columns: repeat(2, 190px);
     gap: 20px;
-    padding: 72px 20px 20px 20px;
+    padding: 72px;
+    justify-content: center;  
 }
 
 .sobre {
@@ -194,7 +189,8 @@ h1 {
     grid-template-columns: repeat(2, 140px);
     gap: 20px;
 
-    padding: 50px 0px 50px 83px ;
+    padding: 50px;
+    justify-content: center;  
 }
 
 button {
@@ -229,7 +225,8 @@ button:hover {
     .grid-wrapper {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        padding: 10% 20px 0px 20px;
+        padding: 10%;
+        justify-content: center;  
         gap: 20px;
     }
 
@@ -273,7 +270,12 @@ button:hover {
 /*-----PERFIL------*/
 
     .grid-wrapper{
-        padding: 80px 150px 70px 150px;
+        justify-content: center;  
+        padding-top: 76px;
+        grid-template-rows: repeat(2, 350px);
+        grid-template-columns: 250px 350px 350px;
+        gap: 30px;
+        
     }
 }
 
