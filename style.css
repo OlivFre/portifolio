@@ -115,6 +115,13 @@ h1 {
     font-size: 24px;
 }
 
+h3 {
+    font-family: var(--font-thinoo);
+    color: var(--color4);
+    font-size: 16px;
+    padding: 6px 0px;
+}
+
 .texto {
     color: var(--color4);
     font-family: var(--fonte-garamond);
