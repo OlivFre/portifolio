@@ -17,7 +17,7 @@
     --fonte-garamond: "Garamond", serif;
 
 
-    --color1: #f9efe1;
+    --color1: #fbf2e9;
     --color2: #a6baac;
     --color3: #967462;
     --color4: #5d3e3f;
@@ -62,9 +62,9 @@ nav > ul {
 
 nav > ul > li {
     font-family: var(--font-thinoo);
-    font-size: 28px;
+    font-size: 24px;
     list-style: none;
-    padding: 22px 20px 16px 20px;
+    padding: 22px 10px 16px 10px;
 }
 
 nav > ul > li > a {
@@ -254,13 +254,13 @@ button:hover {
     }
 }
 
-
-@media screen and (min-width: 1025px) {
+/*--------LAPTOP---------*/
+@media screen and (min-width: 769px) {
 
 /*-----HOME------*/
 
     .home {
-    background-image: url(./imagens/fundo-desktop.png);
+    background-image: url(./imagens/fundo-laptop.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -279,7 +279,16 @@ button:hover {
     }
 }
 
+/*-------DESKTOP-------*/
+@media screen and (min-width: 1025px) {
+    
+    .home {
+        background-image: url(./imagens/fundo-desktop.png);
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-
+}
 
 
