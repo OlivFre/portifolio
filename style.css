@@ -151,9 +151,9 @@ h3 {
 .contato > li {
     list-style-type: none;
     font-family: var(--fonte-garamond);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.2;
-    padding: 4px 0px;
+    padding: 6px 0px;
     width: 100%;
 }
 
