@@ -97,10 +97,10 @@ nav > ul > li > a:hover {
 
 .grid-wrapper {
     display: grid;
-    grid-template-rows: 250px 220px 120px;
+    grid-template-rows: repeat(3, 212px);
     grid-template-columns: repeat(2, 190px);
     gap: 20px;
-    padding: 72px;
+    padding: 62px 0px 0px 0px;
     justify-content: center;  
 }
 
