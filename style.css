@@ -350,6 +350,14 @@ button:hover {
         grid-template-rows: repeat(2, 44%);
     }
 
+    .foto {
+        width: 78%;
+    }
+
+    .grid-wrapper2 {
+        
+    }
+
 }
 
 
