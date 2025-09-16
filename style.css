@@ -355,7 +355,14 @@ button:hover {
     }
 
     .grid-wrapper2 {
+        display: grid;
+        grid-template-rows: repeat(5, 140px);
+        grid-template-columns: repeat(6, 140px);
+        align-items: center;
         
+    }
+    .grid-wrapper2 > h1 {
+        grid-column: 1 / 7;
     }
 
 }
