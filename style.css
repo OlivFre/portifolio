@@ -197,7 +197,7 @@ h3 {
     padding: 16px 20px 20px 20px;    justify-content: center;  
 }
 
-.grid-wrapper2 > h1, hr {
+.grid-wrapper2 > h1{
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
@@ -235,14 +235,27 @@ button:hover {
 
     .grid-wrapper {
         display: grid;
-    grid-template-rows: repeat(3, 212px);
-    grid-template-columns: repeat(2, 190px);
+    grid-template-rows: repeat(3, 25%);
+    grid-template-columns: repeat(2, 40%);
     gap: 20px;
+    width: 100%;
     padding: 62px 0px 0px 0px;
     justify-content: center; 
     }
 
-    
+    .foto {
+        width: 196px;
+        
+    }
+    }
+    .programas {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    .habilidades {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
 
     .box-text, .texto {
         font-size: 18px;
@@ -256,13 +269,15 @@ button:hover {
 
     .grid-wrapper2 {
         display: grid;
-        grid-template-rows: repeat(4, 140px);
-        grid-template-columns: repeat(4, 140px);
-
+        grid-template-rows: repeat(5, 140px);
+        grid-template-columns: repeat(3, 140px);
         align-items: center;
-
     }
-}
+    .grid-wrapper2 > h1 {
+        grid-column: 1 / 5;
+        grid-row: 1 / 2;
+    }
+
 
 /*--------LAPTOP---------*/
 @media screen and (min-width: 769px) {
@@ -282,11 +297,43 @@ button:hover {
     .grid-wrapper{
         justify-content: center;  
         padding-top: 76px;
-        grid-template-rows: repeat(2, 350px);
-        grid-template-columns: 250px 350px 350px;
-        gap: 30px;
-        
+        grid-template-rows: repeat(2, 46%);
+        grid-template-columns: repeat(3, 25%);
+        gap: 20px;
+        width: 100%;
     }
+    .foto {
+        width: 100%;
+    }
+    .sobre {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+    .contato {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    .habilidades {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3;
+    }
+    .programas {
+        grid-row: 2 / 3;
+        grid-column: 3 / 4;
+    }
+
+/*------PROJETOS------*/
+
+    .grid-wrapper2 {
+        display: grid;
+        grid-template-rows: repeat(5, 140px);
+        grid-template-columns: repeat(5, 140px);
+        align-items: center;
+    }
+    .grid-wrapper2 > h1 {
+        grid-column: 1 / 6;
+    }
+
 }
 
 /*-------DESKTOP-------*/
@@ -298,6 +345,9 @@ button:hover {
         background-position: center;
         background-repeat: no-repeat;
     }
+    .grid-wrapper {
+        justify-content: center;
+        grid-template-rows: repeat(2, 44%);
 
 }
 
