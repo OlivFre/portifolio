@@ -348,6 +348,7 @@ button:hover {
     .grid-wrapper {
         justify-content: center;
         grid-template-rows: repeat(2, 44%);
+    }
 
 }
 
