@@ -18,14 +18,14 @@
     width: 100%;
 }
 
-@media screen and (max-width: 480px){
+
 
     body {
         font-family: var(--font-cormorant);
         background-color: var(--color3);
         margin-left: 12px;
         margin-right: 12px;
-        width: 100%;
+        
 
     }
 
@@ -67,7 +67,7 @@
 
     nav > ul > li > a {
         height: 100%;
-        padding: 0 30px;
+        padding: 0 24px;
         text-decoration: none;
         display: flex;
         align-items: center;
@@ -83,15 +83,15 @@
     }
 
     .sidebar {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         height: 100vh;
-        width: 250px;
+        width: 180px;
         z-index: 999;
         background-color: #f8f4e977;
         backdrop-filter: blur(10px);
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.142);
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
         display: none;
         flex-direction: column;
         align-items: flex-start;
@@ -106,10 +106,30 @@
         width: 100%;
     }
 
-    /*------1ª section------*/
+    .menu-button {
+        display: none;
+    }
+
+    @media screen and (max-width: 768px) {
+        .hideOnMobile{
+            display: none;
+        }
+        .menu-button {
+            display: block;
+        }
+    }
+
+
+
+
+
+
+
+    
+    /*-------------------------1ª section-------------------------*/
     .grid-wrapper1{
         display: grid;
-        grid-template-rows: 280px 50px 122px 2px;
+        grid-template-rows: 280px 50px 146px 2px;
         grid-template-columns: repeat(4, 85px);
         gap: 12px;
     }
@@ -147,7 +167,7 @@
         grid-column: 1/5;
 
         border: 2px solid var(--color2);
-        
+        box-shadow: 1px 1px 5px 0px #0000005d;
     }
 
 /*------2ª section------*/
@@ -185,6 +205,7 @@
         grid-column: 1/5;
 
         border: 2px solid var(--color2);
+        box-shadow: 1px 1px 5px 0px #0000005d;
     }
 
     .grid-wrapper2 > ul {
@@ -192,7 +213,7 @@
         color: var(--color2);
         font-size: 1em;
         border: 2px solid var(--color2);
-        box-shadow: 3px 3px 5px 0px #0000005d;        
+        box-shadow: 1px 1px 5px 0px #0000005d;        
         padding: 8px;
     }
 
@@ -219,7 +240,7 @@
         color: var(--color2);
         font-size: 1em;
         border: 2px solid var(--color1);
-        box-shadow: 3px 3px 5px 0px #0000005d;
+        box-shadow: 1px 1px 5px 0px #0000005d;
         padding: 8px;
     }
     .grid-wrapper3 > hr{
@@ -227,48 +248,20 @@
         grid-column: 1/5;
 
         border: 2px solid var(--color2);
+        box-shadow: 1px 1px 5px 0px #0000005d;
     }
 /*------4ª section------*/
 
-    /*.grid-wrapper4{
-        display: grid;
-        grid-template-rows: 46px 96px 256px auto 2px;
-        grid-template-columns: repeat(4, 85px);
-        gap: 12px;
+    .slider-wrapper {
+        overflow: hidden;
+        max-width: 1200px;
+        margin: 0 70px 55px;
     }
-    .grid-wrapper4 > h2{
-        grid-row: 1/2;
-        grid-column: 1/5;
-
-        margin-top: 16px;
-
-    }
-    .grid-wrapper4 > div{
-        grid-row: 2/3;
-        grid-column: 1/5;
-
-        width: 96px;
-        height: 96px;
-    }
-    .grid-wrapper4 > img {
-        grid-row: 3/4;
-        grid-column: 1/4;
-    }
-    .grid-wrapper4 > h1{
-        grid-row: 3/4;
-        grid-column: 4/5;
-    }
-    .grid-wrapper4 > hr{
-        grid-row: 5/6;
-        grid-column: 1/5;
-
-        border: 2px solid var(--color2);
-    }*/
 
     .card-list .card-item {
         color: var(--color2);
         background: var(--color1);
-        width: 200px;
+        user-select: none;
         padding: 35px;
         border-radius: 8px;
         backdrop-filter: blur(30px);
@@ -304,13 +297,29 @@
         cursor: pointer;
         background: var(--color3);
         border: 1px solid transparent;
-        transition: 0.2s ease;
+        /*transition: 0.2s ease;*/
     }
 
     .card-list > .card-item > .message-button:hover {
-        background: var(--color1);
+        background: var(--color2);
         border: 1px solid var(--color3);
         color: var(--color3);
+    }
+
+    .slider-wrapper .swiper-pagination-bullet-active {
+        background: var(--color2);
+        height: 15px;
+        width: 15px;
+    }
+
+    .slider-wrapper .swiper-slide-button {
+        color: var(--color3);
+        margin-top: -50px;
+        transition: 0.2s ease;
+    }
+
+    .slider-wrapper .swiper-slide-button:hover {
+        color: var(--color2);
     }
 
 /*------FOOTER------*/
@@ -340,4 +349,4 @@
         margin-bottom: 24px;
     }
 
-}
+
