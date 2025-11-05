@@ -46,9 +46,17 @@
         align-items: flex-end;
     }
 
+    header > div > .img1, header > div > .img2 {
+        display: none;
+    }
+
     nav {
         background-color: var(--color2);
         box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.11);
+    }
+    
+    nav > #menu2 {
+        display: none;
     }
 
     nav > ul{
@@ -396,6 +404,10 @@
         background-color: var(--color3);
     }
 
+    nav > #menu2 {
+        display: none;
+    }
+
 /*------1ª section------*/
     .grid-wrapper1{
         display: grid;
@@ -492,19 +504,33 @@
         margin-left: 24px;
         margin-right: 24px;
     }
-    nav { 
-        background-color: var(--color3);
+
+    header > div {
+        display: none;
+    }
+    header > div > .img1, header > div > .img2 {
+        display: block;
     }
     nav > #menu2{
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        justify-content: space-evenly;
-        align-items: stretch;
-
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
+        position: fixed;
 
+        background-color: var(--color3);
+        z-index: 999;
     }
+
+    nav > #menu2 > div > h1 > a {
+        font-size: 0.8em;
+        margin-left: 12px;
+        color: var(--color2);
+        text-decoration: none;
+    }
+
     nav > #menu2 > li:first-child{
         display: none;
         width: 100%;
@@ -530,7 +556,7 @@
         grid-template-rows: auto auto auto 2px;
         grid-template-columns: repeat(12, 1fr);
         gap: 16px; 
-        padding: 36px 0px;
+        padding: 62px 0px;
     }
 
     .grid-wrapper1 > .name:nth-of-type(1) {
