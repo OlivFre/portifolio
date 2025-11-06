@@ -638,6 +638,7 @@
         width: 100%;
         height: auto;
         display: block;
+        padding: 36px 0 0 0;
     }
 
     .grid-wrapper1 > h2{
@@ -645,6 +646,7 @@
         grid-column: 1/3;
 
         font-size: 1.8em;
+        padding: 36px 0 0 0;
     }
     .grid-wrapper1 > .text-mq1, .grid-wrapper1 >  .text-mq2 {
         display: block;
